@@ -3,39 +3,54 @@
     profile form
     <form>
       <div class="form-control">
-        <label for="first-name">First Name</label>
+        <label for="fname">First Name</label>
         <input
           type="text"
-          name="f-name"
-          id="first-name"
+          id="fname"
+          name="firstName"
+          [(ngModel)]="firstName"
           placeholder="Your first name"
         />
       </div>
       <div class="form-control">
-        <label for="last-name">Last Name</label>
+        <label for="lname">Last Name</label>
         <input
           type="text"
-          name="l-name"
-          id="last-name"
+          name="lastName"
+          [(ngModel)]="lastName"
+          id="lname"
           placeholder="Your last name"
         />
       </div>
       <div class="form-control">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="xxx@xxx.xxx" />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          [(ngModel)]="email"
+          placeholder="xxx@xxx.xxx"
+        />
       </div>
       <div class="form-control">
         <label for="phone">Phone Number</label>
-        <input type="tel" name="phone" id="phone" placeholder="12345678" />
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          [(ngModel)]="phone"
+          placeholder="12345678"
+        />
       </div>
       <div class="form-control">
         <label for="dob">Date of Birth</label>
-        <input type="date" name="dob" id="dob" />
+        <input type="date" name="dob" [(ngModel)]="dob" id="dob" />
       </div>
       <div class="form-control">
         <label for="comments">Date of Birth</label>
         <textarea
           name="comments"
+          [(ngModel)]="comments"
           id="comments"
           placeholder="Please enter your comments here..."
         ></textarea>
@@ -47,27 +62,27 @@
     profile display
     <div class="form-control">
       <label>First Name:</label>
-      <p>1</p>
+      <p>{{ firstName }}</p>
     </div>
     <div class="form-control">
       <label>Last Name:</label>
-      <p>1</p>
+      <p>{{ lastName }}</p>
     </div>
     <div class="form-control">
       <label>Email:</label>
-      <p>1</p>
+      <p>{{ email }}</p>
     </div>
     <div class="form-control">
       <label>Phone Number:</label>
-      <p>1</p>
+      <p>{{ phone }}</p>
     </div>
     <div class="form-control">
       <label>Date of Birth:</label>
-      <p>1</p>
+      <p>{{ dob }}</p>
     </div>
     <div class="form-control">
       <label>Comments:</label>
-      <p>1</p>
+      <p>{{ comments }}</p>
     </div>
   </div>
 </div>
