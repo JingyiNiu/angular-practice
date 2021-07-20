@@ -8,8 +8,10 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
-import { PostsComponent } from './pages/posts/posts.component';
+import { BlogComponent } from './pages/blog/blog.component';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { PostsComponent } from './components/posts/posts.component';
+import { PostComponent } from './components/post/post.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +19,10 @@ import { ProfileComponent } from './pages/profile/profile.component';
     NavComponent,
     FooterComponent,
     HomeComponent,
-    PostsComponent,
+    BlogComponent,
     ProfileComponent,
+    PostsComponent,
+    PostComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
