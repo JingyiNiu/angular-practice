@@ -18,13 +18,10 @@ import { ProfileComponent } from './pages/profile/profile.component';
     MainContainerComponent,
     HomeComponent,
     PostsComponent,
-    ProfileComponent
+    ProfileComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
