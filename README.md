@@ -3,7 +3,7 @@ This is an ongoing project aiming to practice some basic angular operation like 
 
 ## Screenshots
 #### Blog page
-API request from JSONplaceholder   
+API request from JSONPlaceholder   
 <img src="https://github.com/JingyiNiu/angular-practice/blob/master/screenshots/blog.png" width=600>   
 
 #### Profile page
