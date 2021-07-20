@@ -11,7 +11,7 @@ export class ProfileComponent implements OnInit {
   email!: string;
   phone!: number;
   dob!: string;
-  comments!: string;
+  comment!: string;
 
   constructor() {}
 
