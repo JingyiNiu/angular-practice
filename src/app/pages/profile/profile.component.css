@@ -14,12 +14,20 @@
 
 .profile-display {
   width: 300px;
+  box-sizing: border-box;
+  padding: 20px;
   border: 1px dashed darkcyan;
   margin-bottom: 20px;
 }
 
 .form-control {
   margin: 20px 0;
+}
+
+.form-control p {
+  text-align: start;
+  color: #999;
+  margin-left: 10px;
 }
 
 .form-control label {
