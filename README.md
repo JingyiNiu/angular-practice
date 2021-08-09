@@ -7,7 +7,8 @@ API request from JSONPlaceholder(https://jsonplaceholder.typicode.com/)
 <img src="https://github.com/JingyiNiu/angular-practice/blob/master/screenshots/blog.png" width=800>   
 
 **Profile page**   
-Form with validation and two-way binding   
+Form with two-way binding   
 <img src="https://github.com/JingyiNiu/angular-practice/blob/master/screenshots/profile.png" width=800>   
 
+Form with validation   
 <img src="https://github.com/JingyiNiu/angular-practice/blob/master/screenshots/profile-validation.png" width=800>      
